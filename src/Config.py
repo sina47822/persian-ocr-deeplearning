@@ -27,7 +27,7 @@ class DecoderType:
 EXPERIMENT_NAME = "Test Drive Training Process"
 
 # The name for the dataset files, the binary file and the labels file.
-BASE_FILENAME = "1_nice_60000_rows"
+BASE_FILENAME = "1_Aref_Menna_120000_rows"
 
 # The type of the run session, depending on this type, designated datasets will be loaded.
 OPERATION_TYPE = OperationType.Training
@@ -42,9 +42,9 @@ DECODER_TYPE = DecoderType.BestPath
 # we need to generate a new set of data i.e. train/validate/test
 REGENERATE_CHARLIST_AND_CORPUS = True
 
-DATA_PATH = BASE_PATH + '/dataset/'
+DATA_PATH = BASE_PATH + '/Arabic-Deep-Learning-OCR/'
 MODEL_PATH = BASE_PATH + '/model/'
-OUTPUT_PATH = BASE_PATH + '/output/'
+OUTPUT_PATH = BASE_PATH + '/Arabic-Deep-Learning-OCR/output/'
 INDIVIDUAL_TEST_IMAGE_PATH = DATA_PATH
 
 BASE_IMAGES_FILE = DATA_PATH + BASE_FILENAME + ".bin"

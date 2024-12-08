@@ -105,6 +105,14 @@ The settings of the run session can be adjusted in the Config section of the not
 - In the terminal window, goto src folder and run python Main.py.
 - The code will generate training, validation and testing dataset from (1_nice_60000_rows) dataset, and the training session will start.
 
+<!-- by sina -->
+** NEED TO CHANGE THIS FILE IN CONFIG ** 
+** DATA_PATH = /directory file name/ **
+** OUTPUT_PATH = /directory file name/output/ **
+** when testing data generate all things work but tensorflow version **
+![Tensorflow version issue](tensorflow issues.png)
+<!-- by sina -->
+
 Different datasets can be generated using https://github.com/msfasha/TextImagesToolkit
 
 ##Recognizing single images

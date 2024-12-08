@@ -141,4 +141,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+*.bin
 # End of https://www.toptal.com/developers/gitignore/api/python
+1_Aref_Menna_120000_rows.txt
+TESTING_DATA_1_Aref_Menna_120000_rows.txt
+TRAINING_DATA_1_Aref_Menna_120000_rows.txt
+VALIDATION_DATA_1_Aref_Menna_120000_rows.txt

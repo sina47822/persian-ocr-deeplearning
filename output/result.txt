@@ -1027,3 +1027,5 @@ CONVERT_IMAGE_TO_MONOCHROME: False
 MONOCHROME_BINARY_THRESHOLD: 127
 AUGMENT_IMAGE: False
 
+EXPERIMENT_NAME: Test Drive Training Process
+Training Using Dataset: OperationType.Training

@@ -14,7 +14,6 @@ Markdown
 numpy
 opencv-python
 opt-einsum
-pkg_resources
 protobuf
 pycodestyle
 six
