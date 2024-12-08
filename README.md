@@ -1,4 +1,55 @@
-# persian-ocr-deeplearning
+# Arabic Optical Character Recognition (OCR)
+
+This work can be used to train Deep Learning OCR models to recognize words in any language including Arabic. 
+The model operates in an end to end manner with high accuracy without the need to segment words.
+The model can be trained to recognized words in different languages, fonts, font shapes and word length, it was tested on (18) different font types and the accuracy was high.
+
+![font_list](./images/font_list.png)
+
+The details of this model are presented in:
+https://arxiv.org/abs/2009.01987
+
+The code to generate the dataset (Arabic word images and labels) can be found at:
+
+https://github.com/msfasha/TextImagesToolkit
+
+Using this toolkit, Arabic words can be generated using different fonts, sizes, word length, augmentation and many other features.
+
+Samples of the datasets that were used to train and test the model can be found at: 
+
+https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg?usp=sharing
+
+A utility program to unpack binary image files and extract them into png Arabic word image files can be accessed at: 
+
+[ExtractPNGsFromBinary](/src/ExtractPNGsFromBinary.py)
+
+The code in this model was based on the work of:
+
+https://github.com/githubharald/SimpleHTR.
+
+## Usage:
+## Run on Google Colab
+Open this notebook in Google Colab [Notebook](./Arabic_OCR.ipynb).
+
+Select and download a sample dataset from: https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg?usp=sharing
+
+A suitable dataset for initial training is the (1_nice_60000_rows) dataset as it has a moderate size.
+
+Download the two files of that dataset from the dataset repository:
+
+1_nice_60000_rows.bin 
+
+and
+
+1_nice_60000_rows.txt 
+
+Upload the two files into you Colab account, and place them in the /content/ folder. You can place the dataset files at any folder of your preference but make sure to change the path settings in the begining of the notebook
+
+Run the cells one by one, or run them all in sequence.
+
+Change runtime to GPU or TPU for better performance.
+
+The settings of the run session can be adjusted in the Config section of the notebook.
 
 ## Run on Local Computer
 
@@ -23,9 +74,6 @@
 
 - Download sample dataset from:
   https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg?usp=sharing
-  ```
-  need to edit
-  ```
 
   A suitable dataset for initial training is the (1_nice_60000_rows) dataset.
 
@@ -71,3 +119,7 @@ Sample image 1.png
 
 ![recognize sample image 1.png](./images/recognize_image_1.png)
 
+
+## References
+* [A Hybrid Deep Learning Model For Arabic Text Recognition](https://arxiv.org/abs/2009.01987)
+* [Build a Handwritten Text Recognition System using TensorFlow](https://towardsdatascience.com/2326a3487cd5)
