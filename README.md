@@ -110,7 +110,7 @@ The settings of the run session can be adjusted in the Config section of the not
 ** DATA_PATH = /directory file name/ **
 ** OUTPUT_PATH = /directory file name/output/ **
 ** when testing data generate all things work but tensorflow version **
-![Tensorflow version issue](tensorflow issues.png)
+![Tensorflow version issue](./tensorflow issues.png)
 <!-- by sina -->
 
 Different datasets can be generated using https://github.com/msfasha/TextImagesToolkit
